@@ -1,0 +1,54 @@
+{
+  "name": "GESTO — Caisse & Gestion Commerciale",
+  "short_name": "GESTO",
+  "description": "Logiciel de caisse, facturation, stock et clients en FCFA pour commerçants",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f0928",
+  "theme_color": "#1e134b",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/og-image.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouvelle Vente",
+      "short_name": "Vente",
+      "url": "/ventes/nouvelle",
+      "description": "Enregistrer un encaissement immédiat"
+    },
+    {
+      "name": "Catalogue & Stock",
+      "short_name": "Stock",
+      "url": "/stock",
+      "description": "Consulter les stocks et alertes"
+    },
+    {
+      "name": "Factures",
+      "short_name": "Factures",
+      "url": "/factures",
+      "description": "Historique des factures et impayés"
+    }
+  ]
+}
